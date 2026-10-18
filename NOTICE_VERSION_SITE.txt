@@ -1,0 +1,12 @@
+LE RELAIS DES COMPAGNONS — VERSION FUSIONNÉE
+
+- La page d’accueil est remplacée par la présentation fondée sur le document de Nelly.
+- Le questionnaire HTML original (formulaire #enquete, mêmes champs) et les scripts Supabase d’origine sont intégrés directement en bas de la page d’accueil.
+- La page questionnaire.html d’origine reste accessible et inchangée.
+- Les scripts questionnaire.js, config.js, administration.js et la page administration.html sont conservés octet pour octet.
+- Les autres pages, les mentions légales et le logo d’origine sont conservés.
+- Le site est prêt pour un essai sur l’hébergement d’origine, mais aucune connexion Supabase ni notification par mail n’a pu être testée hors ligne.
+- Tester l’envoi sur le site hébergé, puis vérifier enregistrement et affichage côté administration.
+- robots.txt est conservé à l’identique : il bloque toujours l’exploration par les moteurs. Il faudra le modifier séparément après validation du site et de son adresse définitive.
+- Ne pas publier de données privées ni de clés secrètes dans le dépôt public.
+- Avant de remplacer le site, conserver une copie de sauvegarde ou une version Git antérieure.
