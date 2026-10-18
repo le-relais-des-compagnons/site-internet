@@ -171,3 +171,35 @@ main.wrap{padding-top:30px;padding-bottom:30px}
  .site-header .header-actions a{flex:1;text-align:center}
  .site-header .site-nav a{font-size:.84rem}
 }
+
+
+/* Amélioration visibilité menu + bandeau Facebook accueil */
+.site-header{box-shadow:0 3px 18px rgba(0,0,0,.04)}
+.site-header .masthead{padding-top:12px;padding-bottom:12px;row-gap:14px}
+.site-header .header-actions{gap:14px}
+.site-header .header-actions a{display:inline-flex;align-items:center;justify-content:center;min-height:44px;padding:11px 18px;border-radius:999px;font-size:.95rem;font-weight:800;box-shadow:0 6px 14px rgba(0,0,0,.07)}
+.site-header .header-don{background:var(--green);color:#fff}
+.site-header .header-questionnaire{background:var(--blue-dark);color:#fff;border:1px solid rgba(0,0,0,.06)}
+.site-header .site-nav{padding:8px 0 10px;border-top:1px solid #e3e0d4;background:#f7f3ea}
+.site-header .nav-items{justify-content:flex-start;gap:10px;min-height:auto;flex-wrap:wrap}
+.site-header .site-nav a{display:inline-flex;align-items:center;justify-content:center;padding:9px 14px;border-radius:999px;background:#fff;border:1px solid #e1dccd;box-shadow:0 2px 6px rgba(60,50,20,.04);font-size:.9rem;line-height:1.2}
+.site-header .site-nav a:hover{background:#eef5e8;text-decoration:none}
+.hero-banner-wrap{padding:20px 0 6px;background:linear-gradient(180deg,#fbf8f2 0%,#f6f1e4 100%)}
+.hero-banner-link{display:block;text-decoration:none}
+.hero-banner{width:100%;display:block;border-radius:28px;box-shadow:0 18px 42px rgba(20,40,60,.16);border:1px solid rgba(255,255,255,.85)}
+.hero-banner-note{margin:10px 8px 0;text-align:center;color:#55646a;font-weight:700;font-size:.95rem}
+.hero{padding-top:26px}
+@media(max-width:900px){
+  .site-header .nav-items{gap:8px}
+  .site-header .site-nav a{font-size:.86rem;padding:9px 12px}
+}
+@media(max-width:700px){
+  .hero-banner-wrap{padding-top:14px}
+  .hero-banner{border-radius:18px}
+}
+@media(max-width:520px){
+  .site-header .header-actions{width:100%;display:grid;grid-template-columns:1fr 1fr;gap:10px}
+  .site-header .header-actions a{width:100%}
+  .site-header .site-nav{padding-top:10px}
+  .site-header .site-nav a{font-size:.84rem;padding:8px 11px}
+}
