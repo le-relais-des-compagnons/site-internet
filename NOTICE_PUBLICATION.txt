@@ -1,0 +1,15 @@
+LE RELAIS DES COMPAGNONS — SITE À PUBLIER
+
+Ce dossier contient la vitrine et les fichiers actuels du site.
+
+Pour publier : conserver tous les fichiers ensemble, à la racine du dépôt GitHub site-internet.
+Ne pas supprimer les fichiers questionnaire, administration, JS ou config.js.
+
+La page d’accueil présente la recyclerie, l’alimentation, les friandises, la mastication,
+les chiens de chasse et chiens actifs, les cours et l’accompagnement, et une rubrique partenaires.
+Aucun partenaire n’est annoncé sans accord. Aucune référence commerciale ni prix.
+
+La publication sur GitHub Pages ne modifie pas la base Supabase.
+Vérifier après publication la page d’accueil, le questionnaire et l’administration.
+
+IMPORTANT : avant de publier, ne jamais ajouter de mot de passe ni de clé secrète au dépôt.
