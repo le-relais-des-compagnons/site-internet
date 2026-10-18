@@ -48,3 +48,16 @@ header nav a:hover,header nav a:focus-visible{text-decoration:underline;text-und
 .back-to-top:hover,.back-to-top:focus-visible{background:#25618a;color:white}
 @media(max-width:760px){header .top{padding-top:9px;padding-bottom:9px}header .brand img{width:88px;height:auto}header nav{gap:4px 12px}header nav a{font-size:.78rem}html{scroll-padding-top:145px}.back-to-top{right:10px;bottom:10px;padding:9px 12px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.back-to-top{transition:none}}
+
+/* Photographies d'illustration — visuels générés, sans marques */
+.hero .wrap{display:grid;grid-template-columns:minmax(260px,.9fr) minmax(0,1.1fr);column-gap:38px;align-items:center}
+.hero-photo{grid-column:1;grid-row:1 / span 5;width:100%;height:390px;object-fit:cover;border-radius:22px;box-shadow:0 16px 42px #002f2444}
+.hero .eyebrow,.hero h1,.hero p,.hero .button{grid-column:2}
+.hero h1{font-size:clamp(2.2rem,4vw,3.7rem)}
+.hero .button{justify-self:start}.hero .button-ghost{margin-left:0}
+.card-photo{width:calc(100% + 50px);max-width:none;height:180px;object-fit:cover;display:block;margin:-25px -25px 22px;border-radius:14px 14px 0 0}
+.showcase-panel{grid-template-columns:72px minmax(0,1fr) 240px;align-items:start}
+.panel-photo{grid-column:3;grid-row:1;display:block;width:100%;height:190px;object-fit:cover;border-radius:14px}
+.inline-photo{width:100%;height:150px;object-fit:cover;border-radius:12px;margin:0 0 16px}
+@media(max-width:900px){.showcase-panel{grid-template-columns:64px 1fr}.panel-photo{grid-column:1 / -1;grid-row:1;height:220px}.showcase-panel .panel-icon{grid-column:1;grid-row:2}.showcase-panel>div:last-child{grid-column:2;grid-row:2}}
+@media(max-width:760px){.hero .wrap{display:block}.hero-photo{height:240px;margin-bottom:25px}.hero .button{margin-right:8px}.showcase-panel{display:block}.panel-photo{margin-bottom:16px}.showcase-panel .panel-icon{margin-bottom:16px}}
