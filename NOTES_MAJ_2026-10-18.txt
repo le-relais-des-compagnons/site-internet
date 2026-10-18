@@ -1,0 +1,17 @@
+MISE A JOUR DU SITE – 18/10/2026
+
+Modifications principales :
+- Reprise de la page d'accueil avec une présentation plus chaleureuse et plus lisible.
+- Réintégration du logo fourni par le Relais.
+- Ancrage géographique renforcé autour de Sauvat, Ydes et Bort-les-Orgues.
+- Questionnaire conservé avec son fonctionnement Supabase.
+- Champ "commune" rendu obligatoire.
+- Envoi bloqué si la réponse ne contient rien d'utile en plus de la commune.
+- Si la personne demande à être recontactée, une adresse mail est désormais exigée.
+- robots.txt modifié pour ne plus bloquer tout le référencement.
+
+Important :
+- Les vraies photos d'ambiance n'étaient pas présentes dans l'archive reçue. Si vous souhaitez les réintégrer, il faudra fournir les fichiers image concernés.
+
+- Six photos d'origine reintegrees dans les rubriques du site (dossier images/).
+- Bouton fixe « Retour en haut de page » ajoute en bas a droite.
