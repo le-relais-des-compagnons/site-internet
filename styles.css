@@ -144,3 +144,30 @@ main.wrap{padding-top:30px;padding-bottom:30px}
 
 /* Pages et accès rapides – contenu associatif */
 .top{flex-wrap:wrap}.top nav{flex:1;justify-content:flex-end;gap:8px 13px}.top nav a{font-size:.84rem;white-space:nowrap}.quick-access{padding:28px 0!important;background:#fff}.quick-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px}.quick-tile{display:flex;flex-direction:column;gap:5px;text-decoration:none;padding:18px;border-radius:16px;background:#f1f6e9;border:1px solid #dce6ce;color:#325328}.quick-tile strong{font-size:1.13rem}.quick-tile span{font-size:.91rem;color:#53664e}.quick-tile:hover{background:#e7f1db}.subhero{background:#f3f0e5;padding:55px 0}.subhero>.wrap{display:grid;grid-template-columns:minmax(0,1fr) minmax(220px,.55fr);gap:32px;align-items:center}.subhero h1{max-width:18ch}.subhero-photo{max-height:285px;width:100%;object-fit:cover;border-radius:24px}.subhero .lead{max-width:62ch}section{scroll-margin-top:120px}@media(max-width:950px){.quick-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.top nav{justify-content:flex-start}}@media(max-width:650px){.quick-grid,.subhero>.wrap{grid-template-columns:1fr}.top nav{display:flex}.top nav a{font-size:.85rem}}
+
+/* Menu réorganisé : identité et actions en haut, rubriques sur une ligne. */
+.site-header{position:sticky;top:0;z-index:30;background:#fbf8f2}
+.site-header .masthead{display:flex;align-items:center;justify-content:space-between;gap:18px;padding-top:10px;padding-bottom:10px}
+.site-header .brand img{width:76px}
+.site-header .header-actions{display:flex;align-items:center;gap:10px;flex-shrink:0}
+.site-header .header-actions a{border-radius:999px;padding:9px 16px;font-size:.9rem;font-weight:800;text-decoration:none;white-space:nowrap}
+.site-header .header-don{color:white;background:var(--green)}
+.site-header .header-questionnaire{color:var(--brown);background:#fff;border:1px solid var(--line)}
+.site-header .site-nav{border-top:1px solid #eae9df;overflow-x:auto;scrollbar-width:thin}
+.site-header .nav-items{display:flex;flex-wrap:nowrap;justify-content:space-between;gap:12px;align-items:center;min-height:46px}
+.site-header .site-nav a{font-size:.84rem;font-weight:700;color:var(--brown);text-decoration:none;white-space:nowrap;padding:11px 0}
+.site-header .site-nav a:hover{text-decoration:underline;text-underline-offset:4px}
+@media(max-width:900px){
+ .site-header .masthead{flex-wrap:wrap}
+ .site-header .brand img{width:64px}
+ .site-header .brand-text strong{font-size:1rem}
+ .site-header .nav-items{justify-content:flex-start;gap:22px}
+}
+@media(max-width:520px){
+ .site-header .masthead{align-items:center}
+ .site-header .brand img{width:56px}
+ .site-header .brand-text span{font-size:.68rem}
+ .site-header .header-actions{width:100%;justify-content:center}
+ .site-header .header-actions a{flex:1;text-align:center}
+ .site-header .site-nav a{font-size:.84rem}
+}
